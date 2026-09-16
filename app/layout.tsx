@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Inter } from "next/font/google"
+import { Fontdiner_Swanky, Geist, Geist_Mono, Inter } from "next/font/google"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -11,6 +11,13 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
+const fontdiner = Fontdiner_Swanky({
+  subsets: ["latin"],
+  variable: "--font-fantasy",
+  display: "swap",
+  weight: "400",
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -20,7 +27,7 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", inter.variable)}
+      className={cn("antialiased", fontMono.variable, "font-sans", inter.variable, fontdiner.variable)}
     >
       <body>
         <ThemeProvider>{children}</ThemeProvider>
