@@ -4,7 +4,7 @@ export default function Page() {
       <div className="flex h-screen w-screen items-center justify-center bg-[#e0f2fe]">
         <div className="flex h-full w-[1200px] items-center justify-center bg-[#0f172a]">
           <p
-            className="mx-8 text-center text-3xl text-[#e0f2fe] md:mx-12 md:text-4xl lg:mx-16 lg:text-5xl"
+            className="mx-8 text-center text-2xl text-[#e0f2fe] md:mx-12 md:text-3xl lg:mx-16 lg:text-4xl"
             style={{ fontFamily: "var(--font-fantasy)" }}
           >
             Cada error te enseña, cada línea escrita te acerca a convertirte en programador. Sigue
