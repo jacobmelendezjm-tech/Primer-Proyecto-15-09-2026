@@ -7,9 +7,7 @@ export default function Page() {
             className="mx-8 text-center text-2xl text-[#e0f2fe] md:mx-12 md:text-3xl lg:mx-16 lg:text-4xl"
             style={{ fontFamily: "var(--font-fantasy)" }}
           >
-            Cada error te enseña, cada línea escrita te acerca a convertirte en programador. Sigue
-            practicando, mantén la curiosidad, y recuerda que el esfuerzo constante transforma dudas en
-            habilidades reales. Tu futuro en tecnología empieza hoy.
+            ¿Por qué el programador no se pierde? Porque siempre sigue la ruta del código.
           </p>
         </div>
       </div>
