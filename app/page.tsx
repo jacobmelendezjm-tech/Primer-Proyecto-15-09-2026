@@ -1,9 +1,9 @@
 export default function Page() {
   return (
     <>
-      <div className="flex h-screen w-screen items-center justify-center bg-[#f59e0b]">
-        <div className="flex h-full w-[1200px] items-center justify-center bg-[#e11d48]">
-          <p className="text-center text-base text-white">
+      <div className="flex h-screen w-screen items-center justify-center bg-[#e0f2fe]">
+        <div className="flex h-full w-[1200px] items-center justify-center bg-[#0f172a]">
+          <p className="text-center text-base text-[#e0f2fe]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent free
             libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
             imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
@@ -16,8 +16,8 @@ export default function Page() {
           </p>
         </div>
       </div>
-      <section className="h-[450px] w-screen bg-[#16a34a]" />
-      <section className="h-[450px] w-screen bg-[#c026d3]" />
+      <section className="h-[450px] w-screen bg-[#2563eb]" />
+      <section className="h-[450px] w-screen bg-[#1d4ed8]" />
     </>
   )
 }
